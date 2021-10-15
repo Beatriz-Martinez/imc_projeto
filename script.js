@@ -13,18 +13,18 @@ function imc () {
         
         let classificacao = '';
 
-        if (valorIMC < 18.5){
-            classificacao = 'abaixo do peso.';
+         if (valorIMC < 18.5){
+            classificacao = 'abaixo do peso. Seu peso ideal está entre, 56.7KG(mínimo) e 76.3KG(máximo)';
         }else if (valorIMC < 25) {
-            classificacao = 'com o peso ideal. Parabéns!';
+            classificacao = 'peso normal. Seu peso ideal está entre, 56.7KG(mínimo) e 76.3KG(máximo)';
         }else if (valorIMC < 30){
-            classificacao = 'levemente acima do peso.';
+            classificacao = 'levemente acima do peso. Seu peso ideal está entre, 42.7KG(mínimo) e 57.5KG(máximo)';
         }else if (valorIMC < 35){
-            classificacao = 'com obesidade grau I.';
+            classificacao = 'com obesidade grau I. Seu peso ideal está entre, 56.7KG(mínimo) e 76.3KG(máximo)';
         }else if (valorIMC < 40){
-            classificacao = 'com obesidade grau II.';
+            classificacao = 'com obesidade grau II. Seu peso ideal está entre, 56.7KG(mínimo) e 76.3KG(máximo)';
         }else {
-            classificacao = 'com obesidade grau III.';
+            classificacao = 'com obesidade grau III. Seu peso ideal está entre, 56.7KG(mínimo) e 76.3KG(máximo)';
         }
 
         resultado.textContent = `Olá, ${nome}! Com ${peso}kg e ${altura}m, seu IMC é ${valorIMC}. Atualmente, você está ${classificacao}`;
