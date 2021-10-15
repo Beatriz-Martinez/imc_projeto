@@ -13,7 +13,7 @@ function imc () {
         
         let classificacao = '';
 
-         if (valorIMC < 18.5){
+        if (valorIMC < 18.5){
             classificacao = 'abaixo do peso. Seu peso ideal está entre, 56.7KG(mínimo) e 76.3KG(máximo)';
         }else if (valorIMC < 25) {
             classificacao = 'peso normal. Seu peso ideal está entre, 56.7KG(mínimo) e 76.3KG(máximo)';
